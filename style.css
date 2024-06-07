@@ -1,0 +1,67 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+header, .parallax {
+    height: 100vh;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content, .footer-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+section.content {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+p {
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #ff7f50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #ff6347;
+}
+
+/* Parallax sections with different background colors */
+#section1 {
+    background: #3498db; /* Blue */
+}
+
+#section3 {
+    background: #2ecc71; /* Green */
+}
+
+#section5 {
+    background: #e74c3c; /* Red */
+}
+
+/* Normal content sections */
+#section2, #section4 {
+    background: #ecf0f1; /* Light Grey */
+    color: #333;
+}
